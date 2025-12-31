@@ -1,16 +1,140 @@
-# React + Vite
+# 💡 Multilingual Startup Funding Intelligence Copilot
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+> A Generative AI–based assistant that helps Indian startup founders access **startup funding information** in **Indic languages** through a chat-based interface.
 
-Currently, two official plugins are available:
+---
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) (or [oxc](https://oxc.rs) when used in [rolldown-vite](https://vite.dev/guide/rolldown)) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+## 🚀 About the Project
 
-## React Compiler
+Startup funding information in India is scattered across reports, government PDFs, and websites, and is mostly available only in English.
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+This project aims to **democratize access to startup funding knowledge** by providing a **ChatGPT-like AI assistant** that delivers **clear, explainable, and source-backed answers** to funding-related questions.
 
-## Expanding the ESLint configuration
+---
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+## 🎯 Problem Statement
+
+Indian startup founders face multiple challenges:
+
+- Language barriers  
+- Fragmented funding data  
+- Complex government policies  
+- Lack of explainable AI tools  
+
+These issues limit informed funding and investment decisions.
+
+---
+
+## 💡 Solution Overview
+
+The **Multilingual Startup Funding Intelligence Copilot**:
+
+- Accepts startup funding questions in natural language  
+- Supports Indic languages (English, Telugu, Hindi – expandable)  
+- Provides domain-specific answers (startup funding only)  
+- Uses a scalable **Retrieval-Augmented Generation (RAG)** architecture  
+
+---
+
+## ✨ Key Features
+
+- 💬 Chat-based UI (ChatGPT-like)
+- 🌐 Indic language support
+- 📚 Funding-focused knowledge base
+- 🔍 Source-cited answers
+- 🧠 Explainable AI responses
+- 📈 Scalable architecture for future expansion
+
+---
+
+## 🏗️ System Workflow
+
+1. User enters a startup funding question  
+2. Query is processed by the backend  
+3. Funding-related data is retrieved  
+4. AI generates an explainable answer  
+5. Response is returned with sources  
+
+---
+
+## 🛠️ Tech Stack
+
+### Frontend
+- React  
+- Vite  
+- JavaScript  
+- CSS  
+
+### Backend (Partial Implementation)
+- Python (logic simulation)  
+- Planned: FastAPI + RAG  
+
+### AI (Planned)
+- Large Language Models (LLMs)  
+- Multilingual embeddings  
+- Retrieval-Augmented Generation (RAG)  
+
+---
+
+## ⚙️ Implementation Status
+
+### ✅ Implemented (Phase-1)
+- React + Vite frontend
+- Chat-based UI prototype
+- Language selection UI
+- Partial backend logic
+- End-to-end workflow demonstration
+
+### 🔮 Planned (Next Phase)
+- Full multilingual RAG pipeline
+- Vector database integration
+- Real funding dataset ingestion
+- Advanced funding insights
+- Cloud deployment
+
+---
+
+## 🚀 Project Setup
+
+### Prerequisites
+- Node.js (v18 or later)
+- npm
+
+---
+
+## 📁 Project Structure
+
+```text
+Multilingual-Startup-Funding-Intelligence-Copilot/
+│
+├── src/
+│   ├── components/
+│   ├── App.jsx
+│   └── main.jsx
+│
+├── public/
+│
+├── backend/
+│   └── backend.py   # Partial backend logic
+│
+├── package.json
+├── vite.config.js
+└── README.md
+```
+---
+## ⚙️ Installation Steps
+- git clone https://github.com/your-username/Multilingual-Startup-Funding-Intelligence-Copilot.git
+- cd Multilingual-Startup-Funding-Intelligence-Copilot
+- npm install
+- npm run dev
+---
+## 📍 Application runs at:
+- http://localhost:5173
+---
+## 🧪 How to Use
+- 1.Open the web application
+- 2.Select a language (English / Telugu / Hindi)
+- 3.Enter a startup funding-related question
+- 4.Click Ask AI
+- 5.View the answer with sources
+---
